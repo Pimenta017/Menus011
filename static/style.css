@@ -1,3 +1,9 @@
+body {
+    background-color: #eee;
+    text-align: center;
+}
+
+
 /* Style the navigation bar */
 .navbar {
   width: 100%;
