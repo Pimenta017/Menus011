@@ -9,6 +9,10 @@ def index():
 def login():
     return render_template('login.html')
 
+@app.route('/registo')
+def registo():
+    return render_template('registo.html')
+
 if __name__ == '__main__':
     app.run()
 

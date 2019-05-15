@@ -1,4 +1,10 @@
 {% extends 'layout.html' %}
+{% block titulo %}
+<title>Index</title>
+{% endblock %}
+
 {% block conteudo %}
-<h1>Olá eu sou o index</h1>
+<h1>Olá{% if usr %}, {{ usr }}{% endif %}.</h1>
+<h2>Bem-vindo à nossa loja!</h2>
+
 {% endblock %}
