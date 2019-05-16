@@ -119,3 +119,7 @@ td {
 .pagbar a:hover {
     background-color: #000;
 }
+
+.home-img {
+    width: 260px;
+}

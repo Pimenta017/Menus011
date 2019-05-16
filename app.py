@@ -13,6 +13,14 @@ def login():
 def registo():
     return render_template('registo.html')
 
+@app.route('/Vehicles')
+def Vehicles():
+    return render_template('Vehicles.html')
+
+@app.route('/Soldiers')
+def Soldiers():
+    return render_template('Soldiers.html')
+
 if __name__ == '__main__':
     app.run()
 
