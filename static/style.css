@@ -1,8 +1,9 @@
 body {
-    background-color:  #dddddd;
+    background-color:  black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 100;
+    color: #fff;
     padding: 100px 0px;
 }
 
@@ -43,8 +44,8 @@ fieldset {
 table, td {
     margin-left: auto;
     margin-right: auto;
-    background-color: lightgray;
-    border: 30px solid lightgray;
+    background-color: #b21111;
+    border: 30px solid #b21111;
     border-collapse: separate;
 }
 
@@ -69,7 +70,7 @@ td {
     width: 60%;
     left: 20%;
     border-radius: 100px;
-    background-color: #b21111;
+    background-color: black;
     overflow: auto;
     top: 3%;
     position: absolute;
@@ -88,7 +89,7 @@ td {
 }
 
 .active {
-    background-color: #8c8c8c;
+    background-color: black;
 }
 
 @media screen and (max-width: 500px) {
