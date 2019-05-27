@@ -52,7 +52,7 @@ table, td {
 td {
     background-color: white;
     text-align: center;
-    padding: 30px 10px;
+    padding: 40px 10px;
     width: 256px;
     vertical-align: bottom;
 }
@@ -67,7 +67,7 @@ td {
 }
 
 .navbar {
-    width: 60%;
+    width: 80%;
     left: 20%;
     border-radius: 100px;
     background-color: black;
@@ -123,4 +123,10 @@ td {
 
 .home-img {
     width: 260px;
+}
+
+/*----------------------------*/
+
+.galo-site{
+    img-align:left;
 }

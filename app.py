@@ -21,6 +21,10 @@ def Veiculos():
 def Soldados():
     return render_template('Soldados.html')
 
+@app.route('/Galo')
+def Galo():
+    return render_template('Galo.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
